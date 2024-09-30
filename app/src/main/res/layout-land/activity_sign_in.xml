@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:layout_width="924dp"
+        android:layout_height="96dp"
+        android:background="@drawable/icon">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#9DB1CC"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="480dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/enter"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/darkblue"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blue"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/login"
+            android:layout_width="473dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/login"
+            android:inputType="textEmailAddress"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="473dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reg"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/b"
+            android:onClick="reg"
+            android:text="@string/reg"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/sign"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/b"
+            android:onClick="nextekr"
+            android:text="@string/next"
+            android:textAllCaps="true"
+            android:textColor="@color/grey"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

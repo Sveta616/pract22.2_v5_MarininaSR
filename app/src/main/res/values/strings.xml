@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pract22</string>
+    <string name="enter">Регистрация для входа на свою страницу</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="next">Войти</string>
+    <string name="reg">Регистрация</string>
+    <string name="kyrs">Курс валют</string>
+    <string name="getb">Получить курс</string>
+</resources>
